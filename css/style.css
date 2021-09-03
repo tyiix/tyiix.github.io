@@ -118,3 +118,9 @@ div.icon {
 .dropdown-content-col1{
     float:left;
 }
+/*-------- a --------*/
+.footer {
+    overflow: hidden;
+    background-color: rgb(185, 23, 23);
+    height: 50px;
+  }
