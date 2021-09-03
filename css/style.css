@@ -60,7 +60,7 @@ div.paragraphs {
 div.icon {
     float: left;
     padding-left: 6px;
-    padding-top: 8px;
+    padding-top: 9px;
     padding-right: 5px;
     border-right: 2px solid black;
 }
@@ -89,4 +89,10 @@ div.icon {
     color: white;
     background-color: rgb(105, 16, 16, 0.5);
     transition: 0.5s;
+ }
+
+/* Background Color changes for Current Page */ 
+.navbar a:active {
+    color: #FFEC77;
+    background-color: #3A3961;
  }
