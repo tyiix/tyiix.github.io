@@ -1,0 +1,120 @@
+/******* STYLES *******/
+
+
+body {
+  background: #292929;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+/******* HOME PAGE *******/
+div.home_title {
+    font-size:25px;
+    font-family: "Garamond", serif;
+    color: #FFEC77;
+    text-shadow: 2px 2px 5px black;
+    background-color: #494949;
+    border: 3px solid #696969;
+    border-radius: 20px;
+    width: 40%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+div.paragraphs {
+    font-size:20px;
+    font-family: "Helvetica", sans-serif;
+    color: white;
+    background-color: #3b3b3b;
+    border-radius: 20px;
+    width: 90%;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* icon */
+div.icon {
+    float: left;
+    padding-left: 4px;
+    padding-top: 2.5px;
+    padding-right: 5px;
+    border-right: 2px solid black;
+}
+
+/******* NAVIGATION BAR *******/
+/* Navigation Bar Container */
+.navbar {
+    overflow: hidden;
+    background-color: rgb(185, 23, 23);
+    margin-bottom: 1em;
+    border-radius: 5px;
+  }
+/* Links inside the Navigation Bar */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(179, 179, 179);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Background Color changes when hovering over Nav. Links */ 
+.navbar a:hover, .dropdown:hover .dropbtn {
+    color: white;
+    background-color: rgb(105, 16, 16);
+    transition: 0.5s;
+ }
+/* The Dropdown Container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+/* Dropdown Button */ 
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: rgb(179, 179, 179);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+/*-------- Dropdown Content --------*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border-radius: 0px 0px 7px 7px;
+}
+/* Links Inside Dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+}
+/* Background Color changes when hovering over Dropdown. Links */ 
+.dropdown-content a:hover {
+    color: rgb(211, 69, 69);
+    background-color: #ddd;
+}
+/* Ensures dropdown content appear */ 
+.dropdown:hover .dropdown-content {
+    transition: 1s;
+    display: block;
+}
+/* Working Columns for Dropdown */
+.dropdown-content-col1{
+    float:left;
+}
