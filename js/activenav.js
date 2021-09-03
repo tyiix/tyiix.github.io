@@ -1,7 +1,9 @@
-<script type="text/javascript">
-  $("a.navlink").click(function(){
-    $("a.navlink").css("background-color", "#5C507F");
-    $(this).css("background-color", "#3A3961");
-    $(this).css("color", "#FFEC77");
-    });
-</script>
+navbar = document.querySelector(".navbar").querySelectorAll("a");
+
+navbar.forEach(element => {
+	element.addEventlistener("click",function(){
+		navbar.forEach(nav=>nav.classList.remove("active"))
+
+		this.classList.add("active");
+	})
+});
