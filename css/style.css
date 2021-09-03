@@ -92,7 +92,7 @@ div.icon {
  }
 
 /* Background Color changes for Current Page */ 
-.navbar a:active {
+.navbar ul li a:active {
     color: #FFEC77;
     background-color: #3A3961;
  }
