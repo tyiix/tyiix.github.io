@@ -21,6 +21,13 @@
         $("#footer-placeholder").load("template/footer.html");
       });
     </script>
+    
+    <!-- JS script to change color of active nav tab -->
+    $("a.navlink").click(function(){
+        $("a.navlink").css("background-color", "#5C507F");
+        $(this).css("background-color", "#3A3961");
+        $(this).css("color", "#FFEC77");
+    });
 
   </head>
 
