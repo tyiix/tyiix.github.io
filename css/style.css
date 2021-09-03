@@ -3,7 +3,7 @@
 
 body {
   background: linear-gradient(to right,
-     black 10%, #292929 10% 90%, black 90% 100%);
+     black 5%, #292929 5% 95%, black 95% 100%);
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   color: white;
   text-align: center;
