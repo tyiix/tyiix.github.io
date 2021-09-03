@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  </head>
+
+
+<!-- Navigation Bar (Copy and Paste to other relevant HTML pages)-->
+<div class="navbar">
+  <div class="icon">
+    <img width=40px; src="https://static.drips.pw/rotmg/wiki/Enemies/Oryx%20the%20Mad%20God%201.png?dl=0">
+  </div>
+  <a href="index.html">Home</a>
+  <a href="pages/general information">General Information</a>
+  <a href="pages/new player guide.html">New Player Guide</a>
+  <div class="dropdown">
+    <button class="dropbtn">Classes</button>
+    <div class="dropdown-content">
+      <div class="dropdown-content-col1">
+        <li><a href="#">Rogue</a></li>
+        <li><a href="#">Archer</a></li>
+        <li>><a href="#">Wizard</a></li>
+        <li><a href="#">Priest</a></li>
+        <li><a href="#">Warrior</a></li>
+      </div>
+
+      <div class="dropdown-content-col1">
+        <li>><a href="#">Knight</a></li>
+        <li><a href="#">Paladin</a></li>
+        <li><a href="#">Assassin</a></li>
+        <li><a href="#">Necromancer</a></li>
+        <li><a href="#">Huntress</a></li>
+      </div>
+
+      <div class="dropdown-content-col1">
+        <li>><a href="#">Mystic</a></li>
+        <li><a href="#">Trickster</a></li>
+        <li><a href="#">Sorcerer</a></li>
+        <li><a href="#">Ninja</a></li>
+        <li><a href="#">Samurai</a></li>
+      </div>
+
+      <div class="dropdown-content-col1">
+        <li>><a href="#">Bard</a></li>
+        <li><a href="#">Summoner</a></li>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <body>
+
+    <div class="home_title">
+        <h1>New Player Guide</h1>
+    </div>
+    <div class="paragraphs">
+        <p>This is the new player guide, I think</p>
+    </div>
+  </body>
+
+</html>
