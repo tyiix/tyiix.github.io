@@ -9,6 +9,17 @@ body {
   text-align: center;
 }
 
+.footer {
+    overflow: hidden;
+    background-color: rgb(185, 23, 23);
+    height: 20px;
+    margin-top: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
 /******* HOME PAGE *******/
 div.home_title {
     font-size:25px;
@@ -119,10 +130,3 @@ div.icon {
 .dropdown-content-col1{
     float:left;
 }
-/*-------- a --------*/
-.footer {
-    overflow: hidden;
-    background-color: rgb(185, 23, 23);
-    height: 20px;
-    margin-top: 10px;
-  }
