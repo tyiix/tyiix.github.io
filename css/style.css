@@ -2,16 +2,16 @@
 
 
 body {
-  background: linear-gradient(to right,
-     black 5%, #292929 5% 95%, black 95% 100%);
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  color: white;
-  text-align: center;
-}
+    background: linear-gradient(to right,
+       black 5%, #232430 5% 95%, black 95% 100%);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: center;
+  }
 
 .footer {
     overflow: hidden;
-    background-color: rgb(185, 23, 23);
+    background-color: #5C507F;
     height: 20px;
     margin-top: 10px;
     position: fixed;
@@ -22,12 +22,12 @@ body {
 
 /******* HOME PAGE *******/
 div.home_title {
-    font-size:35px;
+    font-size:25px;
     font-family: 'Asul', sans-serif;
     color: #FFEC77;
-    text-shadow: 2px 2px 5px black;
-    background-color: #494949;
-    border: 3px solid #696969;
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.4);
+    background-color: #3A3961;
+    border: 1px solid #69696900;
     border-radius: 20px;
     width: 40%;
     margin-left:auto;
@@ -36,13 +36,18 @@ div.home_title {
     margin-bottom:15px;
 }
 
+div.home_title p {
+    color: rgb(218, 218, 218);
+    text-shadow: none;
+}
+
 div.paragraphs {
     font-size:21px;
     font-family: 'Quicksand', sans-serif;
     color: rgb(218, 218, 218);
-    background-color: #3b3b3b;
+    background-color: #303243;
     border-radius: 20px;
-    width: 85%;
+    width: 90%;
     padding-top: 0.1px;
     padding-bottom: 0.1px;
     margin-left:auto;
@@ -51,11 +56,11 @@ div.paragraphs {
     margin-bottom:10px;
 }
 
-/* icon */
+/* icon top left of nav */
 div.icon {
     float: left;
     padding-left: 6px;
-    padding-top: 6px;
+    padding-top: 7px;
     padding-right: 5px;
     border-right: 2px solid black;
 }
@@ -64,7 +69,7 @@ div.icon {
 /* Navigation Bar Container */
 .navbar {
     overflow: hidden;
-    background-color: rgb(185, 23, 23);
+    background-color: #5C507F;
     margin-bottom: 1em;
     border-radius: 5px;
   }
@@ -82,6 +87,6 @@ div.icon {
 /* Background Color changes when hovering over Nav. Links */ 
 .navbar a:hover {
     color: white;
-    background-color: rgb(105, 16, 16);
+    background-color: rgb(105, 16, 16, 0.5);
     transition: 0.5s;
  }
