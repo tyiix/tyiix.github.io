@@ -122,6 +122,6 @@ div.icon {
 .footer {
     overflow: hidden;
     background-color: rgb(185, 23, 23);
-    height: 50px;
-    margin-top: 5px;
+    height: 20px;
+    margin-top: 10px;
   }
