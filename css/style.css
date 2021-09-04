@@ -98,7 +98,8 @@ div.paragraphs-g h1 {
 .divider {
     background-color: #444764;
     height: 4px;
-    width: 40%;
+    width: 30%;
+    border-radius: 30%;
     margin-left:auto;
     margin-right:auto;
     margin-bottom: 1em;
