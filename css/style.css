@@ -73,7 +73,7 @@ div.paragraphs-g {
 }
 /* color links*/
 div.paragraphs-g a {
-    color: #7561e8;
+    color: rgba(255, 119, 153, 0.8);
   }
 
 /* change color of h3 */
