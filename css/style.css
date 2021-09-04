@@ -133,7 +133,7 @@ table.invis1 {
     background-color: (0,0,0, 0.0);
     padding: 6px;
     font-size:18px;
-    width: 35%;
+    width: 50%;
     table-layout: fixed;
   }
   table.invis1 td {
@@ -146,7 +146,7 @@ table.no_hd_t {
     font-family: 'Quicksand', sans-serif;
     border-collapse:collapse;
     border-radius: 5px;
-    width: 30%;
+    width: 25%;
     background-color: #444764;
     color: rgb(218, 218, 218);
     border-left: 20px solid rgb(0,0,0,0.0);
