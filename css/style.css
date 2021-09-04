@@ -142,6 +142,11 @@ img.iborder {
     border-radius: 5px;
 }
 
+img.iborder2 {
+    border: 3px solid rgb(218, 218, 218, 0.2);
+    border-radius: 10px;
+}
+
 /******* ----------------- TABLES ----------------- *******/
 /* Invis table */
 table.invis1 {
