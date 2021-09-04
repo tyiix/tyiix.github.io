@@ -134,13 +134,12 @@ table.invis1 {
     background-color: (0,0,0, 0.0);
     padding: 6px;
     font-size:18px;
-    border-collapse:collapse;
-    width: 50%;
+    width: 35%;
+    table-layout: fixed;
   }
   table.invis1 td {
-    padding-left: 15px;
     font-size:18px;
-    width: 10%;
+    text-align: center;
   }
 
 /* Table style with no header */
