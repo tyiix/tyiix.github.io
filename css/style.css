@@ -74,8 +74,8 @@ div.paragraphs-g {
 
 div.paragraphs-g h2 {
     background-color: #444764;
-    width: 10%;
-    margin: 3px;
+    min-width: 16%;
+    margin: 1em;
 }
 
 /* icon top left of nav */
