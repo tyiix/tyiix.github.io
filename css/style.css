@@ -1,6 +1,6 @@
 /******* STYLES *******/
 
-
+/* main bg */
 body {
     background: linear-gradient(to right,
        black 5%, #232430 5% 95%, black 95% 100%);
@@ -8,6 +8,13 @@ body {
     color: white;
     text-align: center;
   }
+  
+/* flex to position items in container horizontally */
+.titleflex {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
 
 /******* -------------- Text Box Styles -------------- *******/
 div.home_title {
@@ -34,11 +41,6 @@ div.hometitle img {
     flex-basis: 40%;
   }
   
-.titleflex {
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
 /* main paragraph style */
 div.paragraphs {
     font-size:21px;
@@ -138,11 +140,12 @@ div.icon {
 }
 
 /******* ----------------- Image Styles ----------------- *******/
+/* border for square imgs */
 img.iborder {
     border: 3px solid rgb(218, 218, 218, 0.5);
     border-radius: 5px;
 }
-
+/* img for less noticable border */
 img.iborder2 {
     border: 3px solid rgb(218, 218, 218, 0.2);
     border-radius: 10px;
@@ -206,7 +209,7 @@ td.border_nhdt {
 /* Background Color changes when hovering over Nav. Links */ 
 .navbar a:hover {
     color: white;
-    background-color: rgb(105, 16, 16, 0.5);
+    background-color: rgba(16, 22, 105, 0.6);
     transition: 0.5s;
  }
 
