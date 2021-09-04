@@ -91,8 +91,3 @@ div.icon {
     transition: 0.5s;
  }
 
-/* Background Color changes for Current Page */ 
-.navbar a.active {
-    color: #FFEC77;
-    background-color: #3A3961;
- }
