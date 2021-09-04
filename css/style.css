@@ -17,6 +17,7 @@ body {
 }
 
 /******* -------------- Text Box Styles -------------- *******/
+/******* ~~~~~~~~ Main Title Style ~~~~~~~~ *******/
 div.home_title {
     font-size:25px;
     font-family: 'Asul', sans-serif;
@@ -40,6 +41,7 @@ div.home_title p {
 div.hometitle img {
     flex-basis: 40%;
   }
+/******* ~~~~~~~~ end ~~~~~~~~ *******/
   
 /* main paragraph style */
 div.paragraphs {
@@ -56,6 +58,7 @@ div.paragraphs {
     margin-top:15px;
     margin-bottom:15px;
 }
+/******* ~~~~~~~~ Guide Pages Style ~~~~~~~~ *******/
 /* Text alignment for guide pages */
 div.paragraphs-g {
     font-size:21px;
@@ -118,6 +121,7 @@ div.paragraphs-g h1::after {
     bottom: 10%;
     left: 15%;
 }
+/******* ~~~~~~~~ end ~~~~~~~~ *******/
 
 /* basic divider for paragraphs */
 .divider {
@@ -152,6 +156,7 @@ img.iborder2 {
 }
 
 /******* ----------------- Links/Buttons ----------------- *******/
+/******* ~~~~~~~~ Link Button 1 ~~~~~~~~ *******/
 /* styling the link button */
 .linkbutton {
     display: inline-block;
@@ -181,6 +186,7 @@ img.iborder2 {
     border: 3px solid rgb(218, 218, 218, 0.2);
     border-radius: 10px;
 }
+/******* ~~~~~~~~ end ~~~~~~~~ *******/
 
 /******* ----------------- TABLES ----------------- *******/
 /* Invis table */
@@ -195,14 +201,14 @@ table.invis1 {
     font-size:18px;
     text-align: center;
   }
-
+/******* ~~~~~~~~ No Header Table ~~~~~~~~ *******/
 /* Table style with no header */
 table.no_hd_t {
     font-family: 'Quicksand', sans-serif;
     border-collapse:collapse;
     border-radius: 5px;
-    width: 25%;
-    background-color: #3f425a;
+    width: 30%;
+    background-color: #3b3e52;
     color: rgb(218, 218, 218);
     border-left: 20px solid rgb(0,0,0,0.0);
     border-right: 20px solid rgb(0,0,0,0.0);
@@ -217,6 +223,7 @@ table.no_hd_t td {
 td.border_nhdt {
   border-bottom: 2px solid #5a6e96; 
 }
+/******* ~~~~~~~~ end ~~~~~~~~ *******/
 
 /******* -------------- NAVIGATION BAR -------------- *******/
 /* Navigation Bar Container */
@@ -243,4 +250,5 @@ td.border_nhdt {
     background-color: rgba(16, 22, 105, 0.6);
     transition: 0.5s;
  }
+ /******* ~~~~~~~~ end ~~~~~~~~ *******/
 
