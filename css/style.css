@@ -155,6 +155,12 @@ img.iborder2 {
     border-radius: 10px;
 }
 
+/******* ~~~~~~~~ FILTERS ~~~~~~~~ *******/
+/* increase brightness*/
+.filter_bright {
+    filter: brightness(3.0); 
+ }
+
 /******* ----------------- Links/Buttons ----------------- *******/
 /******* ~~~~~~~~ Link Button 1 ~~~~~~~~ *******/
 /* styling the link button */
