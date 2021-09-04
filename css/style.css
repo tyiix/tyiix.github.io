@@ -20,7 +20,7 @@ body {
     width: 100%;
   }
 
-/******* HOME PAGE *******/
+/******* -------------- Text Box Styles -------------- *******/
 div.home_title {
     font-size:25px;
     font-family: 'Asul', sans-serif;
@@ -99,11 +99,11 @@ div.paragraphs-g h1::after {
     display: block;
     content: '';
     width: 70%;
-    height: 4px;
+    height: 2px;
     border-radius: 10px;
     background: rgb(218, 218, 218);
     position: absolute;
-    bottom: 11%;
+    bottom: 10%;
     left: 15%;
 }
 
@@ -128,7 +128,30 @@ div.icon {
     border-right: 2px solid black;
 }
 
-/******* NAVIGATION BAR *******/
+/******* ----------------- TABLES ----------------- *******/
+/* Table style with no header */
+table.no_hd_t {
+    font-family: 'Quicksand', sans-serif;
+    border-collapse:collapse;
+    border-radius: 5px;
+    width: 30%;
+    background-color: #444764;
+    color: rgb(218, 218, 218);
+    border-left: 20px solid rgb(0,0,0,0.0);
+    border-right: 20px solid rgb(0,0,0,0.0);
+  }
+/* format on table cells */
+table.no_hd_t td {
+    padding: 6px;
+    text-align: center;
+    font-size: 18px;
+}
+/* define border */
+td.border_nhdt {
+  border-bottom: 2px solid #5a6e96; 
+}
+
+/******* -------------- NAVIGATION BAR -------------- *******/
 /* Navigation Bar Container */
 .navbar {
     overflow: hidden;
