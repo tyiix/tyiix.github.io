@@ -131,6 +131,12 @@ div.icon {
     padding-right: 5px;
 }
 
+/******* ----------------- Image Styles ----------------- *******/
+img.iborder {
+    border: 3px solid #444744;
+    border-radius: 5px;
+}
+
 /******* ----------------- TABLES ----------------- *******/
 /* Invis table */
 table.invis1 {
