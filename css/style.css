@@ -76,6 +76,11 @@ div.paragraphs-g a {
     color: #618EE8;
   }
 
+/* */
+div.paragraphs-g h3 {
+    color: rgb(255, 236, 119, 0.7);
+}
+
 /* Add background to header for paragraph type 2 */
 div.paragraphs-g h2 {
     display: inline;
