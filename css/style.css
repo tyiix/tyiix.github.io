@@ -85,7 +85,7 @@ div.paragraphs-g h2 {
 /* basic divider for paragraphs */
 .divider {
     background-color: #444764;
-    height: 2px;
+    height: 4px;
     width: 50%;
     text-align: center;
     margin-top: 10px;
