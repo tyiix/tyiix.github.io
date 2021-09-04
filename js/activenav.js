@@ -1,9 +1,1 @@
-navbar = document.querySelector(".navbar").querySelectorAll("a");
-
-navbar.forEach(element => {
-	element.addEventlistener("click",function(){
-		navbar.forEach(nav=>nav.classList.remove("active"))
-
-		this.classList.add("active");
-	})
-});
+//* TBA until i figure this out
