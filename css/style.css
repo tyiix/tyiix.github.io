@@ -89,9 +89,15 @@ div.paragraphs-g h1 {
     background-color: #465b86;
     margin-left:3px;
     border-radius:10px;
-    padding: 5px;
+    padding: 8px;
     padding-left:8px;
     padding-right:8px;
+}
+
+div.paragraphs-g h1 {
+    display: inline;
+    background-color: rgb(218, 218, 218);
+    height: 3px;
 }
 
 /* basic divider for paragraphs */
