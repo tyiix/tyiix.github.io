@@ -175,7 +175,7 @@ img.iborder2 {
 /* Background Color changes when hovering over link */ 
 .linkbutton:hover{
     color: white;
-    background-color: rgba(16, 22, 105, 0.2);
+    background-color: rgba(138, 29, 43, 0.3);
     transition: 0.2s;
 }
 
@@ -218,6 +218,11 @@ table.no_hd_t td {
     padding: 6px;
     text-align: center;
     font-size: 18px;
+}
+/* align imgs */
+table.no_hd_t img {
+    vertical-align: bottom;
+    margin-right: 5px;
 }
 /* define border */
 td.border_nhdt {
