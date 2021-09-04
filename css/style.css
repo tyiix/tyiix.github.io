@@ -29,7 +29,17 @@ div.home_title p {
     color: rgb(218, 218, 218);
     text-shadow: none;
 }
-
+/* position img on home_title */
+div.hometitle img {
+    flex-basis: 40%;
+  }
+  
+.titleflex {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+/* main paragraph style */
 div.paragraphs {
     font-size:21px;
     font-family: 'Quicksand', sans-serif;
