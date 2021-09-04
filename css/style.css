@@ -89,15 +89,22 @@ div.paragraphs-g h1 {
     background-color: #465b86;
     margin-left:3px;
     border-radius:10px;
-    padding: 8px;
+    padding: 12px;
     padding-left:8px;
     padding-right:8px;
+    position: relative;
 }
-
-div.paragraphs-g h1 {
-    display: inline;
-    background-color: rgb(218, 218, 218);
-    height: 3px;
+/* add line below h1 */
+div.paragraphs-g h1::after {
+    display: block;
+    content: '';
+    width: 70%;
+    height: 4px;
+    border-radius: 10px;
+    background: rgb(218, 218, 218);
+    position: absolute;
+    bottom: 11%;
+    left: 15%;
 }
 
 /* basic divider for paragraphs */
@@ -105,7 +112,7 @@ div.paragraphs-g h1 {
     background-color: #444764;
     height: 3px;
     width: 25%;
-    border-radius: 30%;
+    border-radius: 10px;
     margin-left:auto;
     margin-right:auto;
     margin-bottom: 1em;
@@ -116,7 +123,7 @@ div.paragraphs-g h1 {
 div.icon {
     float: left;
     padding-left: 6px;
-    padding-top: 9.1px;
+    padding-top: 9.2px;
     padding-right: 5px;
     border-right: 2px solid black;
 }
