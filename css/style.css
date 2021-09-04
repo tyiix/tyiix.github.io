@@ -175,7 +175,7 @@ img.iborder2 {
 /* Background Color changes when hovering over link */ 
 .linkbutton:hover{
     color: white;
-    background-color: rgba(16, 22, 105, 0.6);
+    background-color: rgba(16, 22, 105, 0.3);
     transition: 0.5s;
 }
 
