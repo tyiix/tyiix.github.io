@@ -13,7 +13,7 @@ body {
     overflow: hidden;
     background-color: #5C507F;
     height: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -99,7 +99,7 @@ div.paragraphs-g h1::after {
     display: block;
     content: '';
     width: 70%;
-    height: 2px;
+    height: 3px;
     border-radius: 10px;
     background: rgb(218, 218, 218);
     position: absolute;
@@ -129,6 +129,20 @@ div.icon {
 }
 
 /******* ----------------- TABLES ----------------- *******/
+/* Invis table */
+table.invis1 {
+    background-color: (0,0,0, 0.0);
+    padding: 6px;
+    font-size:18px;
+    border-collapse:collapse;
+    width: 50%;
+  }
+  table.invis1 td {
+    padding-left: 15px;
+    font-size:18px;
+    width: 10%;
+  }
+
 /* Table style with no header */
 table.no_hd_t {
     font-family: 'Quicksand', sans-serif;
