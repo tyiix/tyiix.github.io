@@ -71,6 +71,11 @@ div.paragraphs-g {
     margin-top:10px;
     margin-bottom:10px;
 }
+/* color links*/
+div.paragraphs-g a {
+    color: #618EE8;
+  }
+
 /* Add background to header for paragraph type 2 */
 div.paragraphs-g h2 {
     display: inline;
