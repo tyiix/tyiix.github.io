@@ -97,6 +97,7 @@ div.paragraphs-g h2 {
 div.icon {
     float: left;
     padding-left: 6px;
+    padding-top: 7px;
     padding-right: 5px;
     border-right: 2px solid black;
 }
