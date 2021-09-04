@@ -82,6 +82,18 @@ div.paragraphs-g h2 {
     padding-left:8px;
     padding-right:8px;
 }
+
+/* Add background to header for paragraph type 2 */
+div.paragraphs-g h1 {
+    display: inline;
+    background-color: #465b86;
+    margin-left:3px;
+    border-radius:10px;
+    padding: 5px;
+    padding-left:8px;
+    padding-right:8px;
+}
+
 /* basic divider for paragraphs */
 .divider {
     background-color: #444764;
@@ -97,7 +109,7 @@ div.paragraphs-g h2 {
 div.icon {
     float: left;
     padding-left: 6px;
-    padding-top: 7px;
+    padding-top: 8px;
     padding-right: 5px;
     border-right: 2px solid black;
 }
