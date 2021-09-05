@@ -4,6 +4,9 @@
 body {
     background: linear-gradient(to right,
        black 5%, #232430 5% 95%, black 95% 100%);
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(218, 218, 218);
+    text-align: center;
   }
 /* modify paragraph */
 body p {
