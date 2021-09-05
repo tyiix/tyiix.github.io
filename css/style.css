@@ -43,9 +43,8 @@ div.home_title {
 
 div.home_title p {
     font-size:25px;
-    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.4);
     color: rgb(218, 218, 218);
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: 'Asul', sans-serif;
     text-shadow: none;
 }
 /* position img on home_title */
