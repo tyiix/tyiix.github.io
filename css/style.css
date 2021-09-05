@@ -43,6 +43,7 @@ div.home_title {
 
 div.home_title p {
     color: rgb(218, 218, 218);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     text-shadow: none;
 }
 /* position img on home_title */
