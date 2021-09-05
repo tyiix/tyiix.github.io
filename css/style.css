@@ -258,7 +258,7 @@ td.border_nhdt {
 /* Background Color changes when hovering over Nav. Links */ 
 .navbar a:hover {
     color: white;
-    background-color: rgba(16, 22, 105, 0.5);
+    background-color: rgba(16, 22, 105, 0.3);
     transition: 0.2s;
  }
  /******* ~~~~~~~~ end ~~~~~~~~ *******/
