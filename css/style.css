@@ -232,7 +232,6 @@ table.no_hd_t {
   }
 /* table head color */
 table.no_hd_t th {
-    font-size: 17px;
     padding-top: 5px;
     color: #7785ff;
 }
