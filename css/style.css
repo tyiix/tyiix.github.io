@@ -229,8 +229,14 @@ table.no_hd_t {
     border-left: 20px solid rgb(0,0,0,0.0);
     border-right: 20px solid rgb(0,0,0,0.0);
   }
+/* table head color */
+table.no_hd_t th {
+    font-size: 17px;
+    padding-top: 5px;
+    color: #7785ff;
+}
 /* format on table cells */
-table.no_hd_t td {
+table.no_hd_t th td {
     padding: 6px;
     text-align: center;
     font-size: 18px;
@@ -241,7 +247,7 @@ table.no_hd_t img {
     margin-right: 5px;
 }
 /* define border */
-td.border_nhdt {
+.border_nhdt {
   border-bottom: 2px solid #5a6e96; 
 }
 /******* ~~~~~~~~ end ~~~~~~~~ *******/
