@@ -90,6 +90,7 @@ div.paragraphs-g {
 /* color links*/
 div.paragraphs-g a {
     color: rgba(255, 119, 153, 0.8);
+    text-decoration: none;
   }
 
 /* change color of h3 */
