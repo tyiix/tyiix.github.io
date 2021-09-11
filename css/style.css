@@ -153,6 +153,15 @@ div.icon {
     padding-top: 9.2px;
     padding-right: 5px;
 }
+/******* -------------- Text Styles -------------- *******/
+/* change list color on pros and cons */
+li.pro {
+    color: rgb(184, 255, 166);
+}
+li.con {
+    color: rgb(255, 166, 166);
+}
+/******* -------------- end -------------- *******/
 
 /******* ----------------- Image Styles ----------------- *******/
 /* border for square imgs */
