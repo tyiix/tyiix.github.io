@@ -206,6 +206,43 @@ img.iborder2 {
 /******* ~~~~~~~~ end ~~~~~~~~ *******/
 
 /******* ----------------- TABLES ----------------- *******/
+/******* ----------------- Table of Contents ----------------- *******/
+#toc_container {
+    background-color: #444764;
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+/* title of ToC */
+#toc_container h2 {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(218, 218, 218);
+}
+
+/* removes bullet points from lists */
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+    margin: 5px;
+}
+
+/* color links*/
+#toc_container a {
+    color: rgba(255, 119, 153, 0.8);
+    text-decoration: none;
+}
+/* color sub-links */
+#toc_container ul li ul li a {
+    color: rgba(255, 180, 119, 0.8);
+}
+
+/******* -------- end -------- *******/
 /* Invis table */
 table.invis1 {
     background-color: (0,0,0, 0.0);
