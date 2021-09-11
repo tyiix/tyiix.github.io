@@ -220,7 +220,7 @@ img.iborder2 {
 }
 
 /* title of ToC */
-#toc_container h2 {
+h2.toc_title {
     font-size: 20px;
     text-align: center;
     text-decoration: underline;
