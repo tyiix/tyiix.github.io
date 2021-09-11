@@ -210,11 +210,12 @@ img.iborder2 {
 #toc_container {
     background-color: #444764;
     font-family: 'Quicksand', sans-serif;
-    border: 1px solid #aaa;
+    border-radius:10px;
     display: table;
     font-size: 95%;
     margin-bottom: 1em;
     padding: 20px;
+    padding-right: 30px;
     width: auto;
 }
 
